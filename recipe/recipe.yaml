@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pyreml
-  version: "0.5.2"
+  version: "0.5.3"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: da42a0a9433dd228e02747ed222040f14c0c494ac34e9f900853b0a8fba3dac3
+  sha256: 50e5be9de077183c7abcff76d968c49443adfa045c9164b6ea72a7360a7867f0
 
 build:
   number: 0
